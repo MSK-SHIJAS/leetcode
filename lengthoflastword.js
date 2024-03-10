@@ -1,4 +1,6 @@
-var lengthOfLastWord = function(s) {
+        // LENGTH OF LAST WORD
+        
+        var lengthOfLastWord = function(s) {
             let len = 0;
         
             x = s.trim();
@@ -12,3 +14,9 @@ var lengthOfLastWord = function(s) {
                 }
             }
         
+            return len;
+            
+        };
+        
+        let s = "Hello World"
+        console.log(lengthOfLastWord(s));
